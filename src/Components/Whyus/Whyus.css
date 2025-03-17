@@ -1,0 +1,62 @@
+.whyus {
+    padding: 3% 7% 5% 8%;
+  }
+  
+  .whyus-caption h1 {
+    font-weight: 600;
+    padding-bottom: 3%;
+  }
+  
+  .whyus-caption p,
+  ul {
+    font-size: 1.2rem;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .image-container img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .overlayimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10; 
+    color: #fff;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 10px;
+  }
+  
+  .counter {
+    text-align: center;
+  }
+  
+  .counter h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+    color: #ce9e36; 
+  }
+  
+  .counter p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  

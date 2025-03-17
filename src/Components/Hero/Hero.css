@@ -1,0 +1,193 @@
+
+img{
+    width: 100%;
+    height: 88vh;
+    /* margin-top: -80px; */
+}
+
+.hero{
+    width: 150%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+
+}
+.herotext{
+    position: absolute;
+    background-color: unset;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.herotext h1,p{
+    background-color: unset;
+   
+}
+.herotext h1{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 1%;
+    color: black;
+}
+.herotext p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333333;
+}
+.orderbtn{
+    position: absolute;
+    background-color: unset;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+.orderbtn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+.order-btn{
+    width: 280px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    text-decoration: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #FF3B3B;
+    padding: 12px 24px;
+    
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+
+}
+.order-btn:hover{
+    background-color: rgb(153, 3, 3);
+    color: white;
+}
+@media (min-width: 500px) and (max-width:800px){
+    img{
+        width: 100%;
+        height:65vh;
+    }
+    .herotext{
+        top: 33%;
+        width: 100%;
+       
+    }
+    .herotext p{
+        font-size:0.8rem;
+        font-weight: 300;
+        margin: 0 50px;
+       
+    }
+    .herotext h1{
+        width: 100%;
+        font-size: 1.5rem;
+        
+    }
+    .orderbtn{
+        top: 45%;
+        font-size: 1rem;
+        
+    }
+    .order-btn{
+        width: 250px;
+        height: 50px;
+        border: none;
+        font-size: 1rem;
+        border-radius: 10px;
+    
+    }
+}
+@media (min-width: 800px) and (max-width: 950px){
+    img{
+        width: 100%;
+        height:75vh;
+    }
+    .herotext{
+        top: 40%;
+       
+    }
+    .herotext p{
+        font-size:0.8rem;
+        font-weight: 300;
+        margin: 0 50px;
+    }
+    .herotext h1{
+        width: 100%;
+        font-size: 2rem;
+        
+    }
+    .orderbtn{
+        top: 56%;
+    }
+    .order-btn{
+        width: 270px;
+        height: 45px;
+        border: none;
+        font-size: 1rem;
+        border-radius: 10px;
+    
+    }
+   
+}
+
+
+@media (min-width: 950px) and (max-width: 1200px){
+    img{
+        width:107%;
+        height:75vh;
+    }
+    .herotext{
+        top: 35%;
+        width: 100%;
+       
+    }
+    .herotext p{
+       width: 100%;
+       margin: 0 70px;
+       
+    }
+    .herotext h1{
+        width: 100%;
+        font-size: 2rem;
+        
+    }
+    .orderbtn{
+        top: 48%;
+    }
+}
+@media (min-width:1200px) and (max-width: 1400px){
+    img{
+        width: 100%;
+        height:80vh;
+    }
+    .herotext{
+        top: 40%;
+        width: 100%;
+       
+    }
+    .herotext p{
+       width: 100%;
+       
+    }
+    .herotext h1{
+        width: 100%;
+        font-size: 2rem;
+        
+    }
+    .orderbtn{
+        top: 50%;
+    }
+}
