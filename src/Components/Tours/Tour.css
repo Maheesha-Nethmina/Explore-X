@@ -65,8 +65,8 @@
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* Keep the text at the bottom */
-  align-items: flex-start; /* Align text to the left */
+  justify-content: flex-end; 
+  align-items: flex-start; 
   padding: 20px;
 }
 
