@@ -1,5 +1,5 @@
 .card-slider {
-  width: 100%;
+  width: 95%;
   margin: auto;
   padding: 5% 5%;
 }
@@ -24,14 +24,14 @@
   overflow: hidden;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
-  height: 450px;
+  height: 550px;
   padding-bottom: 5%;
   
 }
 
 .card img {
   width: 100%;
-  height: 450px;
+  height: 550px;
   display: block;
 }
 

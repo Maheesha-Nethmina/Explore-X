@@ -75,7 +75,7 @@ const CardSlider = () => {
           <div key={destination.id} className="card">
             {/* Destination name in the top-left corner */}
             <div className="destination-name">{destination.name}</div>
-            <img src={destination.image} alt={destination.name} />
+            <img className="destination-image" src={destination.image} alt={destination.name} />
             <div className="overlay">
               {/* <h3>{destination.name}</h3> */}
               <p>{destination.description}</p>
