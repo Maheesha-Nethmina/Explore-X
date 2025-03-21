@@ -1,0 +1,147 @@
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    
+  }
+  
+  .footer-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 5%;
+  }
+  
+  /* Newsletter Section */
+  .newsletter {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .newsletter h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-input {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .newsletter-input input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .newsletter-input button {
+    background-color: #f04e30;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .newsletter-input button:hover {
+    background-color: #c43b22;
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-links div {
+    min-width: 150px;
+  }
+  
+  .footer-links h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #f04e30;
+  }
+  
+  /* Social Media */
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #f04e30;
+  }
+  
+  /* Copyright */
+  .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .footer-main {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .newsletter-input {
+      justify-content: center;
+    }
+  
+    .footer-links {
+      justify-content: center;
+      text-align: center;
+    }
+  }
+  

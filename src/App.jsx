@@ -8,6 +8,7 @@ import About from './Components/About/About'
 import Destinations from './Components/Destinations/Destinations'
 import Tour from './Components/Tours/Tour'
 import Whyus from './Components/Whyus/Whyus'
+import Footer from './Components/Footer/Footer'
 
 //by nema
 
@@ -30,6 +31,7 @@ function App() {
       <Destinations/>
       <Tour/>
       <Whyus/>
+      <Footer/>
 
 
 
