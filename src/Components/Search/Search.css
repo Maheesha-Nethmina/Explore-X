@@ -26,6 +26,7 @@ body{
     text-transform: uppercase;
     color: #ffffff;
     margin-top: -170px;
+    gap: 10px;
 }
 
 .nav-tabs .nav-link.active {

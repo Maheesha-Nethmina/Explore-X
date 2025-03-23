@@ -9,6 +9,7 @@ import Destinations from './Components/Destinations/Destinations'
 import Tour from './Components/Tours/Tour'
 import Whyus from './Components/Whyus/Whyus'
 import Footer from './Components/Footer/Footer'
+import BlogSection from './Components/BlogSection/BlogSection'
 
 //by nema
 
@@ -30,7 +31,9 @@ function App() {
       <About/>
       <Destinations/>
       <Tour/>
+      
       <Whyus/>
+      <BlogSection/>
       <Footer/>
 
 
