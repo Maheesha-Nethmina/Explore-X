@@ -10,6 +10,8 @@ import Tour from './Components/Tours/Tour'
 import Whyus from './Components/Whyus/Whyus'
 import Footer from './Components/Footer/Footer'
 import BlogSection from './Components/BlogSection/BlogSection'
+import Discount from './Components/Discount_section/Discount'
+import Gallery from './Components/Gallery/Gallery'
 
 //by nema
 
@@ -30,9 +32,11 @@ function App() {
       <Search/>
       <About/>
       <Destinations/>
+      <Discount/>
       <Tour/>
       
       <Whyus/>
+      <Gallery/>
       <BlogSection/>
       <Footer/>
 
