@@ -13,10 +13,12 @@
   justify-content: center;
   padding-top: 4%;
   padding-bottom: 5%;
+ 
 }
 
 .destination-caption h1 {
-  font-weight: 600;
+  /* font-weight: 600; */
+  font-weight: bold;
 }
 
 .card {

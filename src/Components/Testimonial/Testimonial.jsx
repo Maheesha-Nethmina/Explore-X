@@ -3,21 +3,22 @@
 
     const testimonials = [
     {
-        name: "Timothy Ouano",
+        name: "Saman Kumara Perera",
         text: "This product really helped my brand expand in a very manageable way. Would really use this for any future expansion.",
-        role: "Symph, Designer",
+        role: "Software Engineer",
         image: "https://randomuser.me/api/portraits/men/12.jpg",
     },
-    {
-        name: "Ms. Trisha Tagadiad",
+   
+     {
+        name: "Ms. Shamila Kumari",
         text: "Scalability will never be an issue now for my brand!",
         role: "ANI, CEO",
         image: "https://randomuser.me/api/portraits/women/12.jpg",
     },
     {
-        name: "Rowen Smith",
+        name: "Mr. Nimal Perera",
         text: "The product is really easy to use that I didn’t have to set a training for my employees.",
-        role: "Golden Bowl, CEO",
+        role: "Golden ABC, CEO",
         image: "https://randomuser.me/api/portraits/men/13.jpg",
     }
     ];

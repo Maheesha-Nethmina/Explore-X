@@ -10,7 +10,7 @@ import Tour from './Components/Tours/Tour'
 import Whyus from './Components/Whyus/Whyus'
 import Footer from './Components/Footer/Footer'
 import BlogSection from './Components/BlogSection/BlogSection'
-// import Discount from './Components/Discount_section/Discount'
+import Discount from './Components/Discount_section/Discount'
 import Gallery from './Components/Gallery/Gallery'
 import Testimonials from './Components/Testimonial/Testimonial'
 
@@ -33,7 +33,7 @@ function App() {
       <Search/>
       <About/>
       <Destinations/>
-      {/* <Discount/> */}
+      <Discount/>
       <Tour/>
       <Whyus/>
       <Gallery/>
