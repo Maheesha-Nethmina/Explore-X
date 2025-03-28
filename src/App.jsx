@@ -1,51 +1,30 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Hero from './Components/Hero/Hero'
-import Navbar from './Components/Navbar/Navbar'
-import Welcome from './Components/Welcome/Welcome'
-import Search from './Components/Search/Search'
-import HeroImg from './assets/image04.jpg'
-import About from './Components/About/About'
-import Destinations from './Components/Destinations/Destinations'
-import Tour from './Components/Tours/Tour'
-import Whyus from './Components/Whyus/Whyus'
-import Footer from './Components/Footer/Footer'
-import BlogSection from './Components/BlogSection/BlogSection'
-import Discount from './Components/Discount_section/Discount'
-import Gallery from './Components/Gallery/Gallery'
-import Testimonials from './Components/Testimonial/Testimonial'
+import Home from './Pages/Home'
+import Contact from './Pages/Contact'
+import About from './Pages/About'
+import Gallery from './Pages/Gallery'
+import Destination from './Pages/Destination'
+import Booking from './Pages/Booking'
 
 //by nema
 
 function App() {
  
   return (
-    <>
-      <Welcome/>
-      <Navbar/>
-      <Hero
-      classname="hero"
-      image={HeroImg}
-      title="Explore the World Like Never Before with Explore X"
-      text="Explore the world’s wonders with ExploreX—your adventure starts here."
-      url="/menu"
-      btnname="Start Exploring"
-      />
-      <Search/>
-      <About/>
-      <Destinations/>
-      <Discount/>
-      <Tour/>
-      <Whyus/>
-      <Gallery/>
-      <Testimonials/>
-      <BlogSection/>
-      
-      <Footer/>
-
-
-
-      
-    </>
+   <div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home/>}></Route>
+      <Route path="/about" element={<About/>}></Route>
+      <Route path="/contact" element={<Contact/>}></Route>
+      <Route path="/gallery" element={<Gallery/>}></Route>
+      <Route path="/destination" element={<Destination/>}></Route>
+      <Route path="/booking" element={<Booking/>}></Route>
+    </Routes>
+    </BrowserRouter>
+   </div>
+    
   )
 }
 
