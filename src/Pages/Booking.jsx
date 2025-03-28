@@ -2,7 +2,9 @@ import  './Booking.css'
 
 function Booking() {
   return (
-    <div>This is Booking Page</div>
+    <div>
+      <h1>This is Booking Page</h1>
+    </div>
   )
 }
 

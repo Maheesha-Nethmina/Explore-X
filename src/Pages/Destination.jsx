@@ -1,9 +1,12 @@
+import Navbar from '../Components/Navbar/Navbar'
+import Welcome from '../Components/Welcome/Welcome'
 import './Destination.css'
 
 function Destination() {
   return (
     <div>
-      <h1>This is Destination page</h1>
+      <Welcome />
+      <Navbar />
     </div>
   )
 }
