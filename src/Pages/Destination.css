@@ -1,49 +1,130 @@
-.tour-section {
-    display: flex;
-    align-items: center;
-    gap: 0%;
-    padding:5%;
-    max-width:85%;
-    margin: auto;
-    border: 0px solid #ddd;
-    border-radius: 10px;
-    background-color:#efefef;
-    margin-top: 2%;
-  }
-  
-  .video-container {
-    flex: 1;
-    height: 70%;
-  }
-  
-  .video-container video {
-    width: 100%;
-    border-radius: 10px;
-  }
-  
-  .tour-content {
-    flex: 2; 
+.tour_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  padding: 5% 2% 7% 7%;
+  background-color: #efefef;
+}
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left:50px;
-    height: 70%;
-    background-color: #efefef;
-    padding-right: -5%;
-    
-    
-  }
-  
-  .heading {
-    font-size: 24px;
-    color: #000000;
-    margin-bottom: 10px;
-  }
-  
-  .description {
-    font-size: 16px;
-    color: #666;
-  }
-  
+.video-container {
+  flex: 1;
+  max-width: 23%; /* Reduced video size */
+}
+
+.video-container video {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+
+.text-container {
+  flex: 2;
+  padding: 4%;
+}
+.text-container h1 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+.text-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+.tour-caption {
+  text-align: center;
+  align-items: center;
+  padding-top: 0%;
+  padding-bottom: 1%;
+}
+
+.tour-caption h1 {
+  font-weight: bold;
+}
+
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 8%;
+  padding: 3% 5% 10% 5%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  height: 550px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.price-button {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+  background: rgb(255, 0, 0);
+  border: none;
+  border-radius: 15px 0px 0px 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+  z-index: 10;
+  transition: background 0.3s ease;
+}
+
+.price-button:hover {
+  background: rgb(255, 255, 255);
+  color: black;
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: flex-start; 
+  padding: 20px;
+}
+
+.overlay-content {
+  text-align: left;
+}
+
+.overlay-content h3 {
+  margin: 10px 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.overlay-content p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+
+
+
