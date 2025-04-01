@@ -20,11 +20,7 @@ export const MenuItems= [
         url :"/gallery",
         className: "nav-link"
     },
-    {
-        title: "Booking  ",
-        url :"/booking ",
-        className: "nav-link"
-    },
+    
     {
         title: "Contact Us ",
         url :"/contact",

@@ -1,12 +1,14 @@
 .tour-caption {
   text-align: center;
   align-items: center;
-  padding-top: 5%;
+  padding-top: 7%;
   padding-bottom: 1%;
+  
 }
 
 .tour-caption h1 {
   font-weight: bold;
+  padding-top: 5%;
 }
 
 .card-section {
@@ -89,8 +91,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 7%;
-  padding-bottom: 5%;
+  padding-top: 0%;
+  padding-bottom: 4%;
   
 }
 
