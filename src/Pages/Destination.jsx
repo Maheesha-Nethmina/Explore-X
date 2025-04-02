@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar/Navbar';
 import Welcome from '../Components/Welcome/Welcome';
 import Hero_second from "../Components/Hero_second/hero_second";
 import Footer from '../Components/Footer/Footer'
-import HeroImg from "../assets/tour1.jpg";
+import HeroImg from "../assets/destinationhero11.jpg";
 import destinationVideo from '../assets/destinationVideo.mp4';
 import Kyoto from "../../assets/Kyoto, Japan.jpg";
 import Thailand from "../../assets/Thailand.jpg";
@@ -95,6 +95,30 @@ function Destination() {
         description=""
       />
 
+     
+
+
+
+      <div className="tour-caption">
+        <h1>Uncharted Escapes for Modern Travelers</h1>
+      </div>
+      <div className="card-section">
+        {cardData.map((card, index) => (
+          <div className="card" key={index}>
+            <img src={card.image} alt={card.title} className="card-image" />
+            <button className="price-button">{card.price}</button>
+            <div className="card-overlay">
+              <div className="overlay-content">
+                <p>{card.duration}</p>
+                <h3>{card.title}</h3>
+                
+              </div>
+            </div>
+          </div>
+        ))}
+        
+      </div>
+
       <div className="tour_container">
         <div className="video-container">
           <video ref={videoRef} muted loop playsInline>
@@ -120,25 +144,6 @@ function Destination() {
              sustainable travel in Costa Rica, New Zealand, and beyond.</p>
         
         </div>
-        
-      </div>
-      <div className="tour-caption">
-        <h1>Uncharted Escapes for Modern Travelers</h1>
-      </div>
-      <div className="card-section">
-        {cardData.map((card, index) => (
-          <div className="card" key={index}>
-            <img src={card.image} alt={card.title} className="card-image" />
-            <button className="price-button">{card.price}</button>
-            <div className="card-overlay">
-              <div className="overlay-content">
-                <p>{card.duration}</p>
-                <h3>{card.title}</h3>
-                
-              </div>
-            </div>
-          </div>
-        ))}
         
       </div>
 

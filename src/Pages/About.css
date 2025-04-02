@@ -1,0 +1,107 @@
+.who_we_are, .our_mision {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 5% 7%;
+    background-color:  rgb(239, 238, 238);
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.page_caption , .mision_caption{
+    width: 60%; 
+}
+
+.page_caption h1 ,.mision_caption h1{
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.page_caption h4 ,.mision_caption h4{
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.page_caption p , .mision_caption p{
+    font-size: 20px;
+    color: #414141;
+    margin-bottom: 20px;
+}
+
+.about_img , .mision_img{
+    width: 30%;
+    display: flex;
+    justify-content: center; 
+}
+
+.about_img img  ,.mision_img img{
+    width: 100%; 
+    max-width: 400px; 
+    height: 600px;
+    border-radius: 15px;
+}
+
+.Vision{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 3% 7%;
+    background-color:  rgb(239, 238, 238);
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.Vision_caption{
+    width: 60%; 
+}
+.Vision_caption h1 {
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.Vision_caption h4 {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.Vision_caption p {
+    font-size: 20px;
+    color: #414141;
+    margin-bottom: 20px;
+}
+.visiton_img {
+    width: 30%;
+    display: flex;
+    /* justify-content: center;  */
+}
+
+.visiton_img img {
+    width: 100%; 
+    max-width: 400px; 
+    height: 600px;
+    border-radius: 15px;
+}
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .who_we_are {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .page_caption,
+    .about_img {
+        width: 100%; 
+    }
+
+    .about_img img {
+        max-width: 200px;
+    }
+}
