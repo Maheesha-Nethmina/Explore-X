@@ -14,7 +14,7 @@
 .card-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 8%;
+  /* column-gap: 3%; */
   padding: 50px;
   width: 80%;
   margin: 0 auto;
@@ -108,3 +108,59 @@
   border-radius: 10px;
   border: none;
 }
+ @media screen and (max-width: 600px) {
+
+  .tour-caption {
+    text-align: center;
+    align-items: center;
+    padding-top: 7%;
+    padding-bottom: 1%;
+    
+  }
+  
+  .tour-caption h1 {
+    font-weight: bold;
+    padding-top: 8%;
+  }
+  .card-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 80%;
+    margin: 0px 0px;
+    gap: 20px;
+    
+  }
+  .card {
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    height: 550px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+  }
+
+ 
+
+  .overlay-content h3 {
+    font-size: 18px;
+  }
+
+  .overlay-content p {
+    font-size: 12px;
+  }
+
+  .more-destionation button{
+    width: 250px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  
+ }

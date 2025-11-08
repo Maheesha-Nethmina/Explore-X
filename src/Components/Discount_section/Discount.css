@@ -65,3 +65,20 @@
 .content button:hover {
     background-color: #cc5500;
 }
+
+@media screen and (max-width: 950px){
+    .banner-image {
+        height: 300px;
+    }
+    .content h1 {
+        font-size: 30px;
+    }
+    .content p {
+        font-size: 16px;
+    }
+    .content button {
+        padding: 8px 30px;
+        font-size: 14px;
+    }
+
+}
