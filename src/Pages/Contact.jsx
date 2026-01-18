@@ -6,7 +6,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaClock, FaEnvelope, FaFacebookF, FaTwitter
 import './Contact.css';
 import HeroImg from "../assets/contacthero.jpg";
 
-
+   
 function Contact() {
   return (
     <div>
