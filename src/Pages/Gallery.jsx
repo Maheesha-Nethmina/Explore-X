@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Hero_second from "../Components/Hero_second/hero_second";
+import Hero_second from '../Components/Hero_second/Hero_second';
 import Navbar from "../Components/Navbar/Navbar";
 import Welcome from "../Components/Welcome/Welcome";
 import "./Gallery.css";
