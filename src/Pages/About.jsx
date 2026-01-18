@@ -1,7 +1,7 @@
 import './About.css';
 import Navbar from '../Components/Navbar/Navbar';
 import Welcome from '../Components/Welcome/Welcome';
-import Hero_second from '../Components/Hero_second/hero_second';
+import Hero_second from '../Components/Hero_second/Hero_second';
 import Footer from '../Components/Footer/Footer'
 import HeroImg from '../assets/abouthero2.jpg';
 import aboutImg from '../assets/aboutimg2.jpg';
