@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Hero_second from '../Components/Hero_second/Hero_second';
-import Navbar from "../Components/Navbar/Navbar";
-import Welcome from "../Components/Welcome/Welcome";
-import "./Gallery.css";
+import Navbar from '../Components/Navbar/Navbar';
+import Welcome from '../Components/Welcome/Welcome';
+import './Gallery.css';
 import HeroImg from "../assets/hero15.jpg";
 
 import image1 from "../assets/gallery1.jpg";
