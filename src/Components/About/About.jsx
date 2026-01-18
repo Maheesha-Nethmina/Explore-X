@@ -6,9 +6,6 @@ import { BiUserVoice } from "react-icons/bi";
 
 import HeroSection from '../Hero_second/Hero_second'; 
 
-// Import an image for the hero (optional, or pass a URL string)
-// import heroImage from '../assets/your-image.jpg'; 
-
 function About() {
   const services = [
     {
