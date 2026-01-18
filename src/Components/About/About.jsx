@@ -4,7 +4,6 @@ import { MdOutlineKitesurfing } from "react-icons/md";
 import { GrMapLocation } from "react-icons/gr";
 import { BiUserVoice } from "react-icons/bi";
 
-// ✅ FIXED IMPORT: Notice the capital 'H' in Hero_second matches the folder and file name
 import HeroSection from '../Hero_second/Hero_second'; 
 
 // Import an image for the hero (optional, or pass a URL string)
