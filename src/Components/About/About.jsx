@@ -4,6 +4,11 @@ import { MdOutlineKitesurfing } from "react-icons/md";
 import { GrMapLocation } from "react-icons/gr";
 import { BiUserVoice } from "react-icons/bi";
 
+// ✅ FIXED IMPORT: Notice the capital 'H' in Hero_second matches the folder and file name
+import HeroSection from '../Components/Hero_second/Hero_second'; 
+
+// Import an image for the hero (optional, or pass a URL string)
+// import heroImage from '../assets/your-image.jpg'; 
 
 function About() {
   const services = [
@@ -31,6 +36,15 @@ function About() {
 
   return (
     <div className="col-md-12 row about">
+      
+      {/* ✅ ADDED HERO SECTION HERE */}
+      {/* We need to pass props because your Hero_second.jsx requires them */}
+      <HeroSection 
+        image="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80" // Example image URL
+        title="About ExploreX"
+        description="Discover our story and mission."
+      />
+
       {/* Services Section */}
       <div className="col-md-6 services">
         <div className="row g-4 icon-card">
@@ -48,7 +62,7 @@ function About() {
         </div>
       </div>
 
-      {/* About Section */}
+      {/* About Text Section */}
       <div className="col-md-6 about-text">
         <h1>ExploreX – Your Gateway to Unforgettable Journeys</h1>
         <p>
