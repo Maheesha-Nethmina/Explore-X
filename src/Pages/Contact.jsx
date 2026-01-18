@@ -1,6 +1,6 @@
 import Navbar from '../Components/Navbar/Navbar';
 import Welcome from '../Components/Welcome/Welcome';
-import Hero_second from "../Components/Hero_second/hero_second";
+import Hero_second from "../Components/Hero_second/Hero_second";
 import Footer from '../Components/Footer/Footer'
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock, FaEnvelope, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import './Contact.css';
