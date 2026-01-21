@@ -5,7 +5,7 @@ Welcome to ExploreX! This is the complete frontend for a modern travel planning 
 <img width="1898" height="1075" alt="ExpolreX" src="https://github.com/user-attachments/assets/7b22b981-b659-4700-8780-1156ead4628f" />
 
 ## 🎨 Design & Live Demo
-
+🔴 **Live Website:** [**Click here to visit ExploreX**](https://explore-x-l48m.vercel.app/)
 * **Figma Design:** [**View the complete UI/UX design on Figma**](https://www.figma.com/proto/F73O7FgxQRQ2BRIbe66inf/ExploreX?node-id=0-1&t=vYWoRNgs1jO6QAKh-1)
 
 
