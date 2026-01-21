@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import Welcome from '../Components/Welcome/Welcome'
 import Search from '../Components/Search/Search'
 import HeroImg from '../assets/image04.jpg'
-// import About from '../Components/About/About'
+import About from '../Components/About/About'
 import Destinations from '../Components/Destinations/Destinations'
 import Tour from '../Components/Tours/Tour'
 import Whyus from '../Components/Whyus/Whyus'
@@ -28,7 +28,7 @@ function Home() {
       btnname="Start Exploring"
       />
       <Search/>
-      {/* <About/> */}
+      <About/>
       <Destinations/>
       <Discount/>
       <Tour/>

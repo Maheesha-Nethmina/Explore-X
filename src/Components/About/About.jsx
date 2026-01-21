@@ -4,7 +4,7 @@ import { MdOutlineKitesurfing } from "react-icons/md";
 import { GrMapLocation } from "react-icons/gr";
 import { BiUserVoice } from "react-icons/bi";
 
-import HeroSection from '../Hero_second/Hero_second'; 
+// import HeroSection from '../Hero_second/Hero_second'; 
 
 function About() {
   const services = [
@@ -35,11 +35,11 @@ function About() {
       
       {/* ✅ ADDED HERO SECTION HERE */}
       {/* We need to pass props because your Hero_second.jsx requires them */}
-      <HeroSection 
+      {/* <HeroSection 
         image="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80" // Example image URL
         title="About ExploreX"
         description="Discover our story and mission."
-      />
+      /> */}
 
       {/* Services Section */}
       <div className="col-md-6 services">
